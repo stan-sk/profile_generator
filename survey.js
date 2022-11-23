@@ -15,6 +15,8 @@ rl.question("What's your name? ", (yourName) => {
 
               console.log(`${yourName} loves listening to ${music} while ${activity}, ${food} for ${meal}, prefers ${sport} over any other sport, and is amazing at ${superPower}.`);
 
+              rl.close();
+              
             }); 
           }); 
         }); 
